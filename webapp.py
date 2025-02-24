@@ -24,7 +24,7 @@ import pickle
 
 image = Image.open('images/logo.png')
 
-st.image(image, use_column_width= True)
+st.image(image, use_container_width= True)
 
 st.write('''
 # Cyberbulling Tweet Recognition App
@@ -65,17 +65,17 @@ st.header("Prediction")
 if tweet_input:
     prediction = custom_input_prediction(tweet_input)
     if prediction == "Age":
-        st.image("images/age_cyberbullying.png",use_column_width= True)
+        st.image("images/age_cyberbullying.png",use_container_width= True)
     elif prediction == "Ethnicity":
-        st.image("images/ethnicity_cyberbullying.png",use_column_width= True)
+        st.image("images/ethnicity_cyberbullying.png",use_container_width= True)
     elif prediction == "Gender":
-        st.image("images/gender_cyberbullying.png",use_column_width= True)
+        st.image("images/gender_cyberbullying.png",use_container_width= True)
     elif prediction == "Not Cyberbullying":
-        st.image("images/not_cyberbullying.png",use_column_width= True)
+        st.image("images/not_cyberbullying.png",use_container_width= True)
     elif prediction == "Other Cyberbullying":
-        st.image("images/other_cyberbullying.png",use_column_width= True)
+        st.image("images/other_cyberbullying.png",use_container_width= True)
     elif prediction == "Religion":
-        st.image("images/religion_cyberbullying.png",use_column_width= True)
+        st.image("images/religion_cyberbullying.png",use_container_width= True)
 else:
     st.write('''
     ***No Tweet Text Entered!***
@@ -83,9 +83,9 @@ else:
 
 st.write('''***''')
 
-# About section
-expand_bar = st.expander("About")
-expand_bar.markdown('''
-* **Source Code:** [https://github.com/apurvayadav/cyberbullying-tweet-recognition-app](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app)
-* **Dataset:** [https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
-''')
+# # About section
+# expand_bar = st.expander("About")
+# expand_bar.markdown('''
+# * **Source Code:** [https://github.com/apurvayadav/cyberbullying-tweet-recognition-app](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app)
+# * **Dataset:** [https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
+# ''')
