@@ -16,7 +16,7 @@ This app predicts the nature of the tweet into 6 Categories.
 
 ## Methodology
 * Downloaded the data from kaggle. [(data)](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
-* Performed some Exploratory Data Analysis to get the overview of data. [(initial_modelling.ipynb)](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/blob/main/initial_modelling.ipynb)
+* Performed some Exploratory Data Analysis to get the overview of data. [(initial_modelling.ipynb)](https://github.com/Vignesuh/cyberbullying-detection-webapp/blob/main/initial_modelling.ipynb)
 *  Created a Word Cloud from the data.
 *  Performed the necessary steps for textual analysis.
     * Removing Stopwords, puctuations, URLs, etc
