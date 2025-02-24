@@ -22,9 +22,9 @@ This app predicts the nature of the tweet into 6 Categories.
     * Removing Stopwords, puctuations, URLs, etc
     * Performed Stemming and Lemmatization.
 * Automated the process of preprocessing by creating functions. Which would be helpful in predicting Custom Outputs.
-* Created Illustrations for the webapp from [Canva](https://www.canva.com/). [(Images)](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/tree/main/images)
+* Created Illustrations for the webapp from [Canva](https://www.canva.com/). [(Images)](https://github.com/Vignesuh/cyberbullying-detection-webapp/tree/main/images)
 * Deployed the webapp on streamlit.
 
 ## References
 * Twitter Sentiment Analysis- A NLP Use-Case for Beginners - [https://www.analyticsvidhya.com/blog/2021/06/twitter-sentiment-analysis-a-nlp-use-case-for-beginners/](https://www.analyticsvidhya.com/blog/2021/06/twitter-sentiment-analysis-a-nlp-use-case-for-beginners/)
->>>>>>> 04a9e29 (Initial commit)
+
