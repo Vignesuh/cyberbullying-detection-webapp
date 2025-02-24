@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# cyberbullying-detection-webapp
-=======
 # cyberbullying-tweet-prediction-app
 Web app Link: [https://apurvayadav-cyberbullying-tweet-recognition-app-webapp-z6y643.streamlitapp.com/](https://apurvayadav-cyberbullying-tweet-recognition-app-webapp-z6y643.streamlitapp.com/)
 
