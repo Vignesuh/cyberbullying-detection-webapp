@@ -88,5 +88,5 @@ expand_bar = st.expander("About")
 expand_bar.markdown('''
 * **Source Code:** [https://github.com/Vignesuh/cyberbullying-detection-webapp.git](https://github.com/Vignesuh/cyberbullying-detection-webapp.git)
 * **Dataset:** [https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
-* **Project Done By: Santhosh Kumar M, Vignesh P K, Bharath C R**
+* **Project Done By: AZEEMULLAH AR**
 ''')
